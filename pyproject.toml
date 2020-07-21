@@ -2,11 +2,11 @@
 name = "gato-naranja_brain_games"
 version = "0.1.0"
 description = ""
-authors = ["gato <alex.n.parshikov@gmail.com>"]
+authors = ["Your Name <you@example.com>"]
 packages = [
-  { include = "brain_games" },
+	{ include = "brain_games" },
 ]
-
+ 
 [tool.poetry.dependencies]
 python = "^3.8"
 
@@ -14,7 +14,7 @@ python = "^3.8"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-
+ 
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
