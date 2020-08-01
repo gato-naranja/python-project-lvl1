@@ -4,7 +4,6 @@ python: 3.8
 before_install:
         # make depends on poetry
         - pip install poetry
-        - poetry add --dev flake8
          
 install:
         - make install
