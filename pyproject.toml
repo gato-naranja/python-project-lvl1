@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gato-naranja_brain_games"
-version = "0.1.2"
+version = "0.2.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 packages = [
