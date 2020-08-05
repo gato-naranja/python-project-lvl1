@@ -3,6 +3,7 @@
 
 import prompt
 import random
+from brain_games.cli import welcome_user
 
 
 def correct_answer(item):
@@ -13,10 +14,13 @@ def correct_answer(item):
         return 'no'
 
 
-def game_even(name):
+def game_even():
     # main func which generates numbers
     # then reading answers
     # and define that answer correct or no
+    print()
+    name = welcome_user()
+    print()
     attempts = 3  # current number of questions for a successful game
     while attempts:
         choise = random.randint(1, 100)
