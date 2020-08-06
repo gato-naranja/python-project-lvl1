@@ -2,42 +2,28 @@
 
 
 import prompt
-import random
 from brain_games.cli import welcome_user
-
-
-def correct_answer(item):
-    # returning the correct answer for random number - even or no
-    if item % 2 == 0:
-        return 'yes'
-    if item % 2 != 0:
-        return 'no'
+from brain_games.cli import incorrect_answer
+from brain_games.games.game_even import even
 
 
 def game_even():
     # main func which generates numbers
     # then reading answers
     # and define that answer correct or no
+    print('Answer "yes" if number even otherwise answer "no".')
     print()
     name = welcome_user()
     print()
     attempts = 3  # current number of questions for a successful game
     while attempts:
-        choise = random.randint(1, 100)
-        print('Question:', choise)
+        result = even()
         answer = prompt.string('Your anser:')
-        if answer == correct_answer(choise):
+        if answer == result:
             print('Correct!')
             attempts -= 1
         else:
-            print(
-                    '\''
-                    + answer +
-                    '\' is wrong answer ;(. Correct answer was \''
-                    + correct_answer(choise) +
-                    '\''
-                    )
-            print('Let\'s try again, {0}!'.format(name))
+            incorrect_answer(name, answer, result)
             break
     if not attempts:
         print('Congratulations, {0}!'.format(name))
