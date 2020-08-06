@@ -4,4 +4,9 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 <a href="https://actions-badge.atrox.dev/gato-naranja/python-project-lvl1/goto?ref=master"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fgato-naranja%2Fpython-project-lvl1%2Fbadge%3Fref%3Dmaster&style=flat" /></a>
 <a href="https://travis-ci.com/gato-naranja/python-project-lvl1.svg?branch=master"><img src="https://travis-ci.com/gato-naranja/python-project-lvl1.svg?branch=master" /></a>
+
+Install & run package
 <a href="https://asciinema.org/a/6d0J1e1KkgJhk9RwaXl3WkOeW" target="_blank"><img src="https://asciinema.org/a/6d0J1e1KkgJhk9RwaXl3WkOeW.svg" /></a>
+
+Install & run package with added game of calculator
+<a href="https://asciinema.org/a/lNMw9K5eLPjifjom5svEglz7g" target="_blank"><img src="https://asciinema.org/a/lNMw9K5eLPjifjom5svEglz7g.svg" /></a>
