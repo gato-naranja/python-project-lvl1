@@ -10,3 +10,6 @@ Install & run package
 
 Install & run package with added game of calculator
 <a href="https://asciinema.org/a/lNMw9K5eLPjifjom5svEglz7g" target="_blank"><img src="https://asciinema.org/a/lNMw9K5eLPjifjom5svEglz7g.svg" /></a>
+
+Install & run package with added game of greatest common divisor
+<a href="https://asciinema.org/a/ozhlHFOruKjNdU9bcpT7fTvHu" target="_blank"><img src="https://asciinema.org/a/ozhlHFOruKjNdU9bcpT7fTvHu.svg" /></a>
