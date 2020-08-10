@@ -16,3 +16,6 @@ Install & run package with added game of greatest common divisor
 
 Install & run package with added game of progression
 <a href="https://asciinema.org/a/xdqCSvCpKUPFcTp6ZaVJ6Q8Uo" target="_blank"><img src="https://asciinema.org/a/xdqCSvCpKUPFcTp6ZaVJ6Q8Uo.svg" /></a>
+
+Install & run package with added game of prime numbers
+<a href="https://asciinema.org/a/O9k2X5Z9rAlgQAgeB9u2DXmBn" target="_blank"><img src="https://asciinema.org/a/O9k2X5Z9rAlgQAgeB9u2DXmBn.svg" /></a>
