@@ -1,7 +1,7 @@
 import random
 
 
-def calc_progression():
+def progression():
     # Formation of the progression and definition of a lost item
     list = [random.randint(1, 10)]
     step = random.randint(1, 10)

@@ -1,13 +1,13 @@
 # Main program for game of number even.
 
 
-from brain_games.number_even import game_even
+from brain_games.set_games import brain_game
 
 
 def main():
     # Make a user intreface.
     print('Welcome to the Brain Games!')
-    game_even()
+    brain_game('even')
 
 
 if __name__ == '__main__':

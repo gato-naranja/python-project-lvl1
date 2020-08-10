@@ -1,13 +1,13 @@
 # Main program for game of progression.
 
 
-from brain_games.progression import game_progression
+from brain_games.set_games import brain_game
 
 
 def main():
     # Make a user intreface.
     print('Welcome to the Brain Games!')
-    game_progression()
+    brain_game('progression')
 
 
 if __name__ == '__main__':

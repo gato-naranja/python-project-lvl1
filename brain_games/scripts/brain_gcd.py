@@ -1,13 +1,13 @@
 # Main program for game of greatest common divisor.
 
 
-from brain_games.great_comm_div import game_gcd
+from brain_games.set_games import brain_game
 
 
 def main():
     # Make a user intreface.
     print('Welcome to the Brain Games!')
-    game_gcd()
+    brain_game('gcd')
 
 
 if __name__ == '__main__':
