@@ -11,7 +11,8 @@ def welcome_user():
     return name
 
 
-def rules(game):
+def print_rules(game):
+    # Print rules for each selected game.
     if game == 'even':
         print('Answer "yes" if number even otherwise answer "no".')
     elif game == 'calc':
@@ -26,7 +27,7 @@ def rules(game):
         print('I don\'t play that game!')
 
 
-def incorrect_answer(user, answer, result):
+def show_mess_when_incorrect_answer(user, answer, result):
     # Output message when answer is incorrect
     print(
             '\'{0}\' is wrong answer ;(. Correct answer was \'{1}\''
