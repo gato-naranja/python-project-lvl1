@@ -4,17 +4,20 @@
 <a href="https://actions-badge.atrox.dev/gato-naranja/python-project-lvl1/goto?ref=master"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fgato-naranja%2Fpython-project-lvl1%2Fbadge%3Fref%3Dmaster&style=flat" /></a>
 <a href="https://travis-ci.com/github/gato-naranja/python-project-lvl1/jobs/371752498"><img src="https://travis-ci.com/gato-naranja/python-project-lvl1.svg?branch=master" /></a>
 
-Install & run package
-<a href="https://asciinema.org/a/6d0J1e1KkgJhk9RwaXl3WkOeW" target="_blank"><img src="https://asciinema.org/a/6d0J1e1KkgJhk9RwaXl3WkOeW.svg" /></a>
+Install packages
+<a href="https://asciinema.org/a/1FNiK2Ue6rHDf8SwwdkIx2xvi" target="_blank"><img src="https://asciinema.org/a/1FNiK2Ue6rHDf8SwwdkIx2xvi.svg" /></a>
 
-Install & run package with added game of calculator
-<a href="https://asciinema.org/a/lNMw9K5eLPjifjom5svEglz7g" target="_blank"><img src="https://asciinema.org/a/lNMw9K5eLPjifjom5svEglz7g.svg" /></a>
+Run game of even number
+<a href="https://asciinema.org/a/C481jbVpSJOaL095UM9sLXumT" target="_blank"><img src="https://asciinema.org/a/C481jbVpSJOaL095UM9sLXumT.svg" /></a>
 
-Install & run package with added game of greatest common divisor
-<a href="https://asciinema.org/a/ozhlHFOruKjNdU9bcpT7fTvHu" target="_blank"><img src="https://asciinema.org/a/ozhlHFOruKjNdU9bcpT7fTvHu.svg" /></a>
+Run game of calculator
+<a href="https://asciinema.org/a/RWBP9PAhLSusEeNr6gdMEllU3" target="_blank"><img src="https://asciinema.org/a/RWBP9PAhLSusEeNr6gdMEllU3.svg" /></a>
 
-Install & run package with added game of progression
-<a href="https://asciinema.org/a/xdqCSvCpKUPFcTp6ZaVJ6Q8Uo" target="_blank"><img src="https://asciinema.org/a/xdqCSvCpKUPFcTp6ZaVJ6Q8Uo.svg" /></a>
+Run game of greatest common divisor
+<a href="https://asciinema.org/a/sPzPNFYl6Bx8mZiXpXlnf5Hmj" target="_blank"><img src="https://asciinema.org/a/sPzPNFYl6Bx8mZiXpXlnf5Hmj.svg" /></a>
 
-Install & run package with added game of prime numbers
-<a href="https://asciinema.org/a/O9k2X5Z9rAlgQAgeB9u2DXmBn" target="_blank"><img src="https://asciinema.org/a/O9k2X5Z9rAlgQAgeB9u2DXmBn.svg" /></a>
+Run game of progression
+<a href="https://asciinema.org/a/SNwCRx99hmYSwiJEYTU5lPSKq" target="_blank"><img src="https://asciinema.org/a/SNwCRx99hmYSwiJEYTU5lPSKq.svg" /></a>
+
+Run game of prime numbers
+<a href="https://asciinema.org/a/x7IJpMpCaC7nBpr3sbMhhSWLe" target="_blank"><img src="https://asciinema.org/a/x7IJpMpCaC7nBpr3sbMhhSWLe.svg" /></a>
