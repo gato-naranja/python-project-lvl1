@@ -2,12 +2,11 @@
 
 
 from brain_games.set_games import brain_game
+from brain_games.games.game_even import ask_even_number
 
 
 def main():
-    # Make a user intreface.
-    print('Welcome to the Brain Games!')
-    brain_game('even')
+    brain_game(ask_even_number)
 
 
 if __name__ == '__main__':

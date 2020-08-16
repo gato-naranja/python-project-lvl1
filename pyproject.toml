@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gato-naranja_brain_games"
-version = "0.6.1"
+version = "0.7.0"
 description = "My first project. Five games named Brain games."
 authors = [
 	"Alex Parshikov <alex.n.parshikov@gmail.com>"

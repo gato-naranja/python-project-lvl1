@@ -2,12 +2,11 @@
 
 
 from brain_games.set_games import brain_game
+from brain_games.games.game_gcd import calculate_gcd
 
 
 def main():
-    # Make a user intreface.
-    print('Welcome to the Brain Games!')
-    brain_game('gcd')
+    brain_game(calculate_gcd)
 
 
 if __name__ == '__main__':
