@@ -1,12 +1,12 @@
 # Main program for game of calculator.
 
 
+import brain_games.games.game_calc
 from brain_games.set_games import brain_game
-from brain_games.games.game_calc import generate_calculator
 
 
 def main():
-    brain_game(generate_calculator)
+    brain_game(brain_games.games.game_calc)
 
 
 if __name__ == '__main__':

@@ -1,12 +1,12 @@
 # Main program for game of prime number.
 
 
+import brain_games.games.game_prime
 from brain_games.set_games import brain_game
-from brain_games.games.game_prime import is_number_prime
 
 
 def main():
-    brain_game(is_number_prime)
+    brain_game(brain_games.games.game_prime)
 
 
 if __name__ == '__main__':

@@ -1,12 +1,11 @@
 # Main program for game of number even.
 
-
+import brain_games.games.game_even
 from brain_games.set_games import brain_game
-from brain_games.games.game_even import ask_even_number
 
 
 def main():
-    brain_game(ask_even_number)
+    brain_game(brain_games.games.game_even)
 
 
 if __name__ == '__main__':
