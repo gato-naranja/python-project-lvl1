@@ -15,7 +15,9 @@ def is_prime(num):
 
 
 def generate_question_and_answer():
-    number_for_question = random.randint(1, 1000)
-    if is_prime(number_for_question):
-        return (str(number_for_question), 'yes')
-    return (str(number_for_question), 'no')
+    question = random.randint(1, 1000)
+    if is_prime(question):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return (str(question), correct_answer)

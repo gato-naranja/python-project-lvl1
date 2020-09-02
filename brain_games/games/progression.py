@@ -8,7 +8,7 @@ def generate_question_and_answer():
     # Formation of the progression and definition of a lost item
     PROGRESSION_LENGTH = 10
     progression_body = [random.randint(1, PROGRESSION_LENGTH)]
-    progression_string = ''
+    question = ''
     step_progression = random.randint(1, 10)
     lost_item_index = random.randint(0, PROGRESSION_LENGTH - 1)
     i = 1
@@ -17,8 +17,8 @@ def generate_question_and_answer():
         i += 1
     for i in range(PROGRESSION_LENGTH):
         if i == lost_item_index:
-            progression_string += ' ..'
-            lost_item = str(progression_body[i])
+            question += ' ..'
+            correct_answer = str(progression_body[i])
         else:
-            progression_string += ' ' + str(progression_body[i])
-    return (progression_string, lost_item)
+            question += ' ' + str(progression_body[i])
+    return (question, correct_answer)
