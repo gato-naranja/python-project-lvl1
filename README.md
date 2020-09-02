@@ -4,26 +4,60 @@
 <a href="https://actions-badge.atrox.dev/gato-naranja/python-project-lvl1/goto?ref=master"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fgato-naranja%2Fpython-project-lvl1%2Fbadge%3Fref%3Dmaster&style=flat" /></a>
 <a href="https://travis-ci.com/github/gato-naranja/python-project-lvl1/jobs/371752498"><img src="https://travis-ci.com/gato-naranja/python-project-lvl1.svg?branch=master" /></a>
 
-Install packages
+## Project description
 
-<a href="https://asciinema.org/a/1FNiK2Ue6rHDf8SwwdkIx2xvi" target="_blank"><img src="https://asciinema.org/a/1FNiK2Ue6rHDf8SwwdkIx2xvi.svg" /></a>
+In this project includes five games for training mathematical skills:
+  - _determining the parity of a number_, user should answer "yes" if number is even otherwise answer "no";
+  - _calculation of simple mathematical expressions_, user should decide what is the result of the expression;
+  - _determination of the greatest common divisor_, user should find the greatest common divisor of given numbers;
+  - _etermination of a Prime number_, user should answer "yes" if given number is prime otherwise answer "no";
+  - _finding the missing element of the progression_, user should answer what number is missing in the progression.
 
-Run game of even number
+## Install packages
 
-<a href="https://asciinema.org/a/C481jbVpSJOaL095UM9sLXumT" target="_blank"><img src="https://asciinema.org/a/C481jbVpSJOaL095UM9sLXumT.svg" /></a>
+For install:
+```
+pip install -i https://test.pypi.org/simple/ gato-naranja-brain-games
+```
+[![asciicast](https://asciinema.org/a/1FNiK2Ue6rHDf8SwwdkIx2xvi.svg)](https://asciinema.org/a/1FNiK2Ue6rHDf8SwwdkIx2xvi)
 
-Run game of calculator
 
-<a href="https://asciinema.org/a/RWBP9PAhLSusEeNr6gdMEllU3" target="_blank"><img src="https://asciinema.org/a/RWBP9PAhLSusEeNr6gdMEllU3.svg" /></a>
+## Run game of even number
 
-Run game of greatest common divisor
+For run this game:
+```
+$env/bin/brain-even
+```
+[![asciicast](https://asciinema.org/a/C481jbVpSJOaL095UM9sLXumT.svg)](https://asciinema.org/a/C481jbVpSJOaL095UM9sLXumT)
 
-<a href="https://asciinema.org/a/sPzPNFYl6Bx8mZiXpXlnf5Hmj" target="_blank"><img src="https://asciinema.org/a/sPzPNFYl6Bx8mZiXpXlnf5Hmj.svg" /></a>
+## Run game of calculator
 
-Run game of progression
+For run this game:
+```
+$env/bin/brain-calc
+```
+[![asciicast](https://asciinema.org/a/RWBP9PAhLSusEeNr6gdMEllU3.svg)](https://asciinema.org/a/RWBP9PAhLSusEeNr6gdMEllU3)
 
-<a href="https://asciinema.org/a/SNwCRx99hmYSwiJEYTU5lPSKq" target="_blank"><img src="https://asciinema.org/a/SNwCRx99hmYSwiJEYTU5lPSKq.svg" /></a>
+## Run game of greatest common divisor
 
-Run game of prime numbers
+For run this game:
+```
+$env/bin/brain-gcd
+```
+[![asciicast](https://asciinema.org/a/sPzPNFYl6Bx8mZiXpXlnf5Hmj.svg)](https://asciinema.org/a/sPzPNFYl6Bx8mZiXpXlnf5Hmj)
 
-<a href="https://asciinema.org/a/x7IJpMpCaC7nBpr3sbMhhSWLe" target="_blank"><img src="https://asciinema.org/a/x7IJpMpCaC7nBpr3sbMhhSWLe.svg" /></a>
+## Run game of progression
+
+For run this game:
+```
+$env/bin/brain-progression
+```
+[![asciicast](https://asciinema.org/a/SNwCRx99hmYSwiJEYTU5lPSKq.svg)](https://asciinema.org/a/SNwCRx99hmYSwiJEYTU5lPSKq)
+
+## Run game of prime numbers
+
+For run this game:
+```
+$env/bin/brain-prime
+```
+[![asciicast](https://asciinema.org/a/x7IJpMpCaC7nBpr3sbMhhSWLe.svg)](https://asciinema.org/a/x7IJpMpCaC7nBpr3sbMhhSWLe)
