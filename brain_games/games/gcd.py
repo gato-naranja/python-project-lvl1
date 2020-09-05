@@ -17,5 +17,5 @@ def get_gcd(n1, n2):
 def generate_question_and_answer():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
-    numbers_for_question = '{0} {1}'.format(num1, num2)
+    numbers_for_question = str(num1) + ' ' + str(num2)
     return (numbers_for_question, str(get_gcd(num1, num2)))
